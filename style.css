@@ -2,7 +2,18 @@
     box-sizing: border-box;
 }
 
+body{
+    display: flex;
+    justify-content: center;
+    font-family: 'Manrope', sans-serif;
+}
+
 #card{
     display: flex;
     flex-direction: column;
+    width: 327px ;
+}
+
+.hero{
+    width: 327px ;
 }
