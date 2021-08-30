@@ -12,10 +12,14 @@ body{
     display: flex;
     flex-direction: column;
     width: 327px ;
+    border-top-right-radius:1rem ;
+    border-top-left-radius:1rem ;
 }
 
 .hero{
     width: 327px ;
+    border-top-right-radius:1rem ;
+    border-top-left-radius:1rem ;
 }
 
 .bigGray{
