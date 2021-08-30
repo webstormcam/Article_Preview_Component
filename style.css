@@ -17,3 +17,20 @@ body{
 .hero{
     width: 327px ;
 }
+
+.bigGray{
+    font-weight: 700;
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.smallGray{
+    font-size: 0.8rem;
+    line-height: 1.4rem;
+    
+}
+
+.blurb_section{
+    padding: 1rem;
+}
