@@ -27,14 +27,63 @@ body{
     font-size: 1.1rem;
     line-height: 1.4rem;
     margin-bottom: 1rem;
+    color: hsl(217, 19%, 35%)
+    
+}
+
+#image_details{
+    display: flex;
+    flex-direction: row;
+}
+.profile_pic{
+    width: 45px;
+    border-radius: 50%;
+    
 }
 
 .smallGray{
     font-size: 0.8rem;
     line-height: 1.4rem;
+    color: hsl(214, 17%, 51%)
     
 }
 
 .blurb_section{
     padding: 1rem;
+}
+
+.name{
+    font-size: 0.8rem;
+    color: hsl(217, 19%, 35%);
+    font-weight: bold;
+}
+
+.date{
+    font-size: 0.8rem;
+    color: hsl(214, 17%, 51%)
+}
+
+footer{
+    border-bottom-right-radius:1rem ;
+    border-bottom-left-radius:1rem ;
+    display: flex;
+    flex-direction: row;
+}
+
+.arrow{
+   width: 15px;
+   height: 15px;
+   
+    
+}
+
+.clickable_arrow{
+    border-radius: 50%;
+    background-color: red;
+    height: 32px;
+    width: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
