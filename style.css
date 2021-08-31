@@ -60,6 +60,8 @@ border-bottom-left-radius:1rem ;
     
 }
 
+
+
 .blurb_section{
     padding: 1.9rem;
 }
@@ -101,6 +103,10 @@ footer{
     justify-content: center;
     align-items: center;
     margin-top: 4px;
+}
+
+#mobile_click{
+    display: none;
 }
 
 @media screen and (min-width: 1440px){
