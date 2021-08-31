@@ -1,9 +1,9 @@
 function myFunction(){
     var x = document.getElementById("mobile_click");
-    if(x.style.display ==='none'){
-        x.style.display = 'flex';
+    if(x.style.display ==='flex'){
+        x.style.display = 'none';
     } else{
-        x.style.display = 'none'
+        x.style.display = 'flex'
     }
 }
 
