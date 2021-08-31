@@ -143,6 +143,8 @@ padding: 1rem;
     padding-left: 1rem;
 }
 
+
+
 @media screen and (min-width: 1440px){
     #card{
         flex-direction: row;
@@ -158,6 +160,13 @@ padding: 1rem;
 
     .clickable_arrow{
         flex-direction: row;
+        
+        
+    }
+
+    #mobile_click{
+        width: 400px;
+        bottom: 4rem;
     }
 
     .hero{
@@ -169,4 +178,6 @@ padding: 1rem;
         font-size: 1.3rem;
         line-height: 1.8rem;
     }
+
+  
 }
