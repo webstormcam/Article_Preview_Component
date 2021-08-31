@@ -164,9 +164,16 @@ padding: 1rem;
         
     }
 
+    .clickable_arrow2{
+        display: none;
+    }
+
     #mobile_click{
-        width: 400px;
+        width: 248px;
         bottom: 4rem;
+        right: -3.5rem;
+        border-radius: 1rem;
+        padding-top: 0rem;
     }
 
     .hero{
