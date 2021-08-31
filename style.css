@@ -114,11 +114,19 @@ footer{
         flex-direction: row;
     }
 
-    .info{
-        flex-direction: row;
-    }
+
 
     .clickable_arrow{
         flex-direction: row;
+    }
+
+    .hero{
+        border-top-right-radius:0rem ;
+        border-bottom-left-radius: 1rem;
+    }
+
+    .bigGray{
+        font-size: 1.3rem;
+        line-height: 1.8rem;
     }
 }
