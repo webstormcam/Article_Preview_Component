@@ -93,6 +93,8 @@ footer{
     
 }
 
+
+
 .clickable_arrow{
     border-radius: 50%;
     background-color: hsl(205, 21%, 89%);
@@ -103,10 +105,33 @@ footer{
     justify-content: center;
     align-items: center;
     margin-top: 4px;
+    cursor: pointer;
+}
+
+.clickable_arrow2{
+    background-color: hsl(224, 23%, 55%);
 }
 
 #mobile_click{
     display: none;
+    background-color:hsl(217, 19%, 35%) ;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+#socials{
+display: flex;
+flex-direction: row;
+padding: 1rem;
+}
+
+#socials p{
+    color: hsl(214, 17%, 51%);
+    letter-spacing: 0.5rem;
+}
+
+.social{
+    padding-left: 1rem;
 }
 
 @media screen and (min-width: 1440px){
