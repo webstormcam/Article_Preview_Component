@@ -8,13 +8,12 @@ function myFunction(){
 }
 
 function imgChanger(){
-    var y = document.getElementById('arrow');
-    if (y.src ==='imgs/icon-share-dark.svg'){
-        y.src ='imgs/icon-share.svg';
-    } else{
-        y.src = 'imgs/icon-share-dark.svg';
-    }
+    var y = document.getElementById('arrow')
+    var a= document.getElementById('arrow2')
+
+  
 }
+
 
 function backgroundChanger(){
     var z = document.getElementById('clickable_arrow')
@@ -26,7 +25,7 @@ function backgroundChanger(){
 }
 
 function someFunc(){
-    imgChanger();
+   
     myFunction();
     backgroundChanger();
 }

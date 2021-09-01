@@ -98,6 +98,7 @@ footer{
 #arrow{
     width: 15px;
     height: 15px;
+    display: block;
 }
 
 
@@ -155,6 +156,10 @@ padding: 1rem;
    
  
   
+}
+
+#arrow2{
+    display: none;
 }
 
 
@@ -218,6 +223,8 @@ padding: 1rem;
         left:7.3rem;
        
       }
+
+      
 
   
 }
