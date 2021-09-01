@@ -91,7 +91,13 @@ footer{
    width: 15px;
    height: 15px;
    
+   
     
+}
+
+#arrow{
+    width: 15px;
+    height: 15px;
 }
 
 
@@ -105,13 +111,13 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 4px;
+    margin-top: 12px;
     cursor: pointer;
 }
 
 .clickable_arrow2{
     background-color: hsl(224, 23%, 55%);
-    margin-top: 0.3rem;
+    margin-top: 0.4rem;
     margin-left: 2rem;
     
 }
@@ -132,6 +138,9 @@ footer{
 display: flex;
 flex-direction: row;
 padding: 1rem;
+
+
+
 }
 
 #socials p{
@@ -141,6 +150,9 @@ padding: 1rem;
 
 .social{
     padding-left: 1rem;
+   
+ 
+  
 }
 
 

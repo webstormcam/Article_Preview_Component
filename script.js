@@ -8,9 +8,12 @@ function myFunction(){
 }
 
 function imgChanger(){
-    var y = document.getElementsByClassName('arrow');
+    var y = document.getElementById('arrow');
+    var z = document.getElementById('clickable_arrow')
     if (y.src ==='imgs/icon-share.svg'){
         y.src ='imgs/icon-share-dark.svg';
+        z.style.backgroundColor = 'red'
+        
 
     } else{
         y.src = 'imgs/icon-share.svg';
