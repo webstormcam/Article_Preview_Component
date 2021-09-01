@@ -8,11 +8,22 @@ function myFunction(){
 }
 
 function imgChanger(){
-    var y = document.getElementById('arrow')
-    var a= document.getElementById('arrow2')
-
-  
+    var y = document.getElementById('arrow');
+    if(y.src === "imgs/icon-share.svg"){
+        y.src = 'imgs/icon-share-dark.svg';
+        console.log('hello')
+        y.alt =('Switched to the dark version')
+    } 
+    // else{
+        // y.src = 'imgs/icon-share-dark.svg';
+        // console.log('hi')
+        // y.alt='Switched to the dark version'
+    // }
+    
 }
+
+
+
 
 
 function backgroundChanger(){
@@ -25,7 +36,7 @@ function backgroundChanger(){
 }
 
 function someFunc(){
-   
+    imgChanger();
     myFunction();
     backgroundChanger();
 }
