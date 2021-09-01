@@ -8,18 +8,17 @@ function myFunction(){
 }
 
 function imgChanger(){
-    var y = document.getElementById('arrow');
-    if(y.src === "imgs/icon-share.svg"){
-        y.src = 'imgs/icon-share-dark.svg';
-        console.log('hello')
-        y.alt =('Switched to the dark version')
-    } 
-    // else{
-        // y.src = 'imgs/icon-share-dark.svg';
-        // console.log('hi')
-        // y.alt='Switched to the dark version'
-    // }
-    
+    var y = document.getElementById('dog');
+ 
+    if(y.alt === 'Light arrow'){
+        y.alt ='Dark arrow'
+        y.src ='icon-share.svg'
+        y.src ='imgs/icon-share.svg'
+
+    }else{
+        y.alt = 'Light arrow'
+        y.src ='imgs/icon-share-dark.svg'
+    }
 }
 
 
