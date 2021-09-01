@@ -115,6 +115,8 @@ footer{
     cursor: pointer;
 }
 
+
+
 .clickable_arrow2{
     background-color: hsl(224, 23%, 55%);
     margin-top: 0.4rem;
@@ -172,10 +174,15 @@ padding: 1rem;
 
 
 
-    .clickable_arrow{
+    /* .clickable_arrow{
         flex-direction: row;
         
         
+    } */
+
+    #clickable_arrow{
+        background-color: rgb(221, 228, 233);
+        flex-direction: row;
     }
 
     .clickable_arrow2{

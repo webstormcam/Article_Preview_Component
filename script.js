@@ -9,10 +9,9 @@ function myFunction(){
 
 function imgChanger(){
     var y = document.getElementById('arrow');
-    var z = document.getElementById('clickable_arrow')
     if (y.src ==='imgs/icon-share.svg'){
         y.src ='imgs/icon-share-dark.svg';
-        z.style.backgroundColor = 'red'
+       
         
 
     } else{
@@ -20,7 +19,17 @@ function imgChanger(){
     }
 }
 
+function backgroundChanger(){
+    var z = document.getElementById('clickable_arrow')
+    if(z.style.backgroundColor==='rgb(114, 128, 167)'){
+        z.style.backgroundColor ='rgb(221, 228, 233)'
+    } else{
+        z.style.backgroundColor ='rgb(114, 128, 167)'
+    }
+}
+
 function someFunc(){
     imgChanger();
     myFunction();
+    backgroundChanger();
 }
