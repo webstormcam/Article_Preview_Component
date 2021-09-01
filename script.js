@@ -9,13 +9,10 @@ function myFunction(){
 
 function imgChanger(){
     var y = document.getElementById('arrow');
-    if (y.src ==='imgs/icon-share.svg'){
-        y.src ='imgs/icon-share-dark.svg';
-       
-        
-
+    if (y.src ==='imgs/icon-share-dark.svg'){
+        y.src ='imgs/icon-share.svg';
     } else{
-        y.src = 'imgs/icon-share.svg';
+        y.src = 'imgs/icon-share-dark.svg';
     }
 }
 
